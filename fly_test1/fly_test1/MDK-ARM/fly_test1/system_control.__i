@@ -1,0 +1,6 @@
+-c --cpu Cortex-M3 -D__MICROLIB -g -O3 --apcs=interwork --split_sections -I ../Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc -I ../Drivers/STM32F1xx_HAL_Driver/Inc/Legacy -I ../Drivers/CMSIS/Device/ST/STM32F1xx/Include -I ../Drivers/CMSIS/Include -I ..\Drivers\STM32_BSP_Driver\inc -I ..\USER -I ..\SYSTEM\sys -I ..\Application\Communication\inc --C99
+-I E:\STM32ClubMX\¸¨Öúµ¥Æ¬»ú²âÊÔ\fly_test1\fly_test1\MDK-ARM\RTE
+-I D:\Keil_v5\ARM\PACK\ARM\CMSIS\4.5.0\CMSIS\Include
+-I D:\Keil_v5\ARM\PACK\Keil\STM32F1xx_DFP\2.2.0\Device\Include
+-D__UVISION_VERSION="520" -D_RTE_ -DSTM32F10X_HD -DUSE_HAL_DRIVER -DSTM32F103xE
+-o fly_test1\system_control.o --omf_browse fly_test1\system_control.crf --depend fly_test1\system_control.d "..\Src\system_control.c"

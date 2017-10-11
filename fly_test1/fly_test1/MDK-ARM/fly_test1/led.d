@@ -1,0 +1,10 @@
+fly_test1\led.o: ..\USER\led.c
+fly_test1\led.o: ..\USER\led.h
+fly_test1\led.o: ..\SYSTEM\sys\sys.h
+fly_test1\led.o: ../Drivers/CMSIS/Device/ST/STM32F1xx/Include/stm32f103xe.h
+fly_test1\led.o: ../Drivers/CMSIS/Include/core_cm3.h
+fly_test1\led.o: D:\Keil_v5\ARM\ARMCC\Bin\..\include\stdint.h
+fly_test1\led.o: ../Drivers/CMSIS/Include/core_cmInstr.h
+fly_test1\led.o: ../Drivers/CMSIS/Include/cmsis_armcc.h
+fly_test1\led.o: ../Drivers/CMSIS/Include/core_cmFunc.h
+fly_test1\led.o: ../Drivers/CMSIS/Device/ST/STM32F1xx/Include/system_stm32f1xx.h
